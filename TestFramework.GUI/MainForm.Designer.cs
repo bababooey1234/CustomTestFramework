@@ -28,12 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            label1 = new Label();
+            SuspendLayout();
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Comic Sans MS", 20F);
+            label1.Location = new Point(-9, 63);
+            label1.Name = "label1";
+            label1.Size = new Size(574, 56);
+            label1.TabIndex = 0;
+            label1.Text = "amazingly incredible features";
+            // 
+            // Form1
+            // 
+            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(800, 450);
+            Controls.Add(label1);
+            Name = "Form1";
+            Text = "TestFramework GUI";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
+
+        private Label label1;
     }
 }

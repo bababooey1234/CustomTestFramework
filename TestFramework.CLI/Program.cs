@@ -1,2 +1,2 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿Console.WriteLine("Discover tests in TestableClass, run them, and print a summary of results, plus details of failed tests");
+Console.WriteLine("Maybe add command-line parameters, e.g. -v to make the program output more verbose");
